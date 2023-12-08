@@ -1,0 +1,27 @@
+:root {
+  --dark-bg-color: #2e2e2e;
+  --dark-text-color: #ffffff;
+  --dark-link-color: #4ecdc4;
+
+  --light-bg-color: #ffffff;
+  --light-text-color: #333333;
+  --light-link-color: #ff6b6b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--dark-text-color);
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--dark-bg-color);
+}
+
+
